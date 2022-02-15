@@ -7,6 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-    - name: Interpretación de la definición del tipo de recurso
-      run:
+    - run:
         echo "Hello, World!"
