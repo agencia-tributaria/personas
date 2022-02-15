@@ -1,4 +1,4 @@
-name: Personas (wadl:resource_type)
+name: Personas (WADL)
 on:
   push:
     paths:
