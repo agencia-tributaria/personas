@@ -1,6 +1,6 @@
 <resource_type xmlns="http://wadl.dev.java.net/2009/02">
   <method name="GET">
-    <doc title="NIF"/>
+    <doc title="by NIF"/>
     <request/>
   </method>
 </resource_type>
