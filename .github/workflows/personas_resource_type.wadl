@@ -1,0 +1,12 @@
+name: resource_type: Colección de personas
+on:
+  push:
+    paths:
+      - 'index.xml'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+        run:
+          echo "Hello, World!"
