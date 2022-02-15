@@ -1,4 +1,3 @@
-name: Personas (WADL)
 on:
   push:
     paths:
