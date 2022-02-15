@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - 'físicas/index.xml'
+      - 'físicas/wadl.xml'
       - '.github/workflows/personas físicas (WADL).yml'
 jobs:
   build:
