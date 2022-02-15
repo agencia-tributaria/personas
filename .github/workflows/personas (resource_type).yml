@@ -1,0 +1,12 @@
+name: Personas (wadl:resource_type)
+on:
+  push:
+    paths:
+      - 'index.xml'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+        run:
+          echo "Hello, World!"
