@@ -1,0 +1,12 @@
+on:
+  push:
+    paths:
+      - 'index.xml'
+      - '.github/workflows/personas (WADL).yml'
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+    steps:
+    - name: Interpretación de la definición del tipo de recurso
+      run:
+        echo "Hello, World!"
