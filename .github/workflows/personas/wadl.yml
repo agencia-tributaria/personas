@@ -1,4 +1,4 @@
-name: resource_type
+name: resource_type: Colección de personas
 on:
   push:
     paths:
@@ -8,15 +8,5 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.RECURSIVE_BUILD_PAT }}
-
-      - name: Create report file
-        run: date +%s > src/main/java/Report.java
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v8
-        with:
-          message: 'Update Java binding (automated)'
-          add: 'src/main/java/Report.java'
+        run:
+          echo "Hello, World!"
