@@ -4,6 +4,9 @@ on:
     paths:
       - 'index.xml'
 jobs:
-  run:
-    runs-on: ubuntu-latest
-      echo "Hello, World!"
+  build:
+    runs-on: ubuntu-latest 
+    steps:
+    - name: Interpretación de la definición del tipo de recurso
+      run:
+        echo "Hello, World!"
