@@ -1,8 +1,8 @@
 on:
   push:
     paths:
-      - 'index.xml'
-      - '.github/workflows/personas (WADL).yml'
+      - 'físicas/index.xml'
+      - '.github/workflows/personas físicas (WADL).yml'
 jobs:
   build:
     runs-on: ubuntu-latest 
