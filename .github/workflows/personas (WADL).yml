@@ -3,10 +3,7 @@ on:
   push:
     paths:
       - 'index.xml'
-
 jobs:
   run:
     runs-on: ubuntu-latest
-    steps:
-        run:
-          echo "Hello, World!"
+      echo "Hello, World!"
