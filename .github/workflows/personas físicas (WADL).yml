@@ -3,10 +3,10 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-    - id: files
+    - id: changes
       uses: jitterbit/get-changed-files@v1
       with:
         format: 'csv'
     - uses: agencia-tributaria/resource_type@main
       with:
-        changes: ${{ steps.files.outputs }}
+        changes: ${{ steps.changes.outputs }}
