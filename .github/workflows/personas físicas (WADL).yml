@@ -7,6 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-    - name: Interpretación de la definición del tipo de recurso
-      run:
-        echo "Hello, World!"
+    - uses: agencia-tributaria/resource_type@1.2
+      with:
+        who-to-greet: 'World'
