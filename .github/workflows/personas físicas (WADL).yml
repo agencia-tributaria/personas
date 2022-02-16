@@ -7,6 +7,6 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-    - uses: agencia-tributaria/resource_type@v1.2
+    - uses: agencia-tributaria/resource_type@main
       with:
         who-to-greet: 'World'
