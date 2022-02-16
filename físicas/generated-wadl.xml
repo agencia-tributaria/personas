@@ -18,7 +18,7 @@
     </response>
     <response status="404">
       <representation mediaType="application/vnd.agencia-tributaria.collection#2022-02">
-        <param xml:lang="es" fixed="Esta colección no contiene ningún recurso se que responda a los parámetros especificados"/>
+        <param xml:lang="es" fixed="Esta colección no contiene ningún recurso se que responda a los parámetros especificados en la solicitud"/>
       </respresentation>
     </response>
     <response status="3 4 5">
@@ -35,6 +35,14 @@
           <link resource_type="http://agencia-tributaria.github.io/persona/física" />
         </param>
       </representation>
+    </response>
+    <response status="404">
+      <representation mediaType="application/vnd.agencia-tributaria.collection#2022-02">
+        <param xml:lang="es" fixed="Esta colección no contiene ningún recurso se que responda a los parámetros especificados en la solicitud"/>
+      </respresentation>
+    </response>
+    <response status="3 4 5">
+      <representation href="/error.xml"/>
     </response>
   </method>
 </resource_type>
