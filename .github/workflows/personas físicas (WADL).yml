@@ -3,7 +3,8 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
-    - uses: jitterbit/get-changed-files@v1
+    - id: 'files'
+      uses: jitterbit/get-changed-files@v1
       with:
         format: 'csv'
     - uses: agencia-tributaria/resource_type@main
