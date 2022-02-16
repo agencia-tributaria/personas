@@ -31,7 +31,7 @@
     </request>
     <response status="303">
       <representation mediaType="application/vnd.agencia-tributaria.collection#2022-02">
-        <param>
+        <param name="Location" style="header" required="true">
           <link resource_type="http://agencia-tributaria.github.io/persona/física" />
         </param>
       </representation>
