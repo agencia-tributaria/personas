@@ -1,3 +1,31 @@
-<resource_type xmns="http://wadl.dev.java.net/2009/02">
-  <method/>
+<resource_type x:collection-item="/persona/física" x:collection-versions="2022-02"
+    xmlns:x="http://agencia-tributaria-github.io/rsdl.xsd" 
+    xmlns:nif="http://agencia-tributaria-github.io/nif.xsd"
+    xmlns="http://wadl.dev.java.net/2009/02">
+  <method name="GET">
+    <request x:qualifier="name" x:collection="true">
+      <param name="nombre" />
+      <param name="apellido-1" />
+      <param name="apellido-2" />
+    </request>
+    <response status="200">
+      <representation mediaType="application/vnd.agencia-tributaria.collection#2022-02">
+        <param repeating="true">
+          <link resource_type="http://agencia-tributaria.github.io/persona/física" />
+        </param>
+      </representation>
+    </response>
+  </method>
+  <method name="GET">
+    <request>
+      <param name="nif" type="nif:type" required="true" />
+    </request>
+    <response status="303">
+      <representation mediaType="application/vnd.agencia-tributaria.collection#2022-02">
+        <param>
+          <link resource_type="http://agencia-tributaria.github.io/persona/física" />
+        </param>
+      </representation>
+    </response>
+  </method>
 </resource_type>
