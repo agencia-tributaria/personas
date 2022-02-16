@@ -9,4 +9,4 @@ jobs:
         format: 'csv'
     - uses: agencia-tributaria/resource_type@main
       with:
-        changes: ${{ steps.get-changed.outputs }}
+        changes: steps.get-changed.outputs
