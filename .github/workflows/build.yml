@@ -8,7 +8,7 @@ jobs:
       with:
         format: 'csv'
     - run: |
-        echo ${{ steps.get-changed.outputs }}
+        echo ${{ steps.get-changed.outputs.all }}
     - uses: agencia-tributaria/resource_type@main
       with:
         changes: test
