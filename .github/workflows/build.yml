@@ -7,7 +7,7 @@ jobs:
       uses: jitterbit/get-changed-files@v1
     - uses: agencia-tributaria/resource_type@main
       with:
-        added: ${{ steps.get-changed.outputs.added }}
-        modified: ${{ steps.get-changed.outputs.modified }}
-        removed: ${{ steps.get-changed.outputs }}
-        renamed: ${{ steps.get-changed.outputs.renamed }}
+        added:    ${{ steps.get-changed.outputs.added     }}
+        modified: ${{ steps.get-changed.outputs.modified  }}
+        removed:  ${{ steps.get-changed.outputs.removed   }}
+        renamed:  ${{ steps.get-changed.outputs.renamed   }}
