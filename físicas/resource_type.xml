@@ -1,4 +1,4 @@
-<resource_type x:collection-item="/persona/física" x:collection-versions="2022-02"
+<resource_type x:item="/persona/física" x:versions="2022-02"
     xmlns:x="http://agencia-tributaria-github.io/rsdl.xsd" 
     xmlns:nif="http://agencia-tributaria-github.io/nif.xsd"
     xmlns="http://wadl.dev.java.net/2009/02">
