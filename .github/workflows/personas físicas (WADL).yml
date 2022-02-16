@@ -1,9 +1,4 @@
-on:
-  push:
-    paths:
-      - 'físicas/wadl.xml'
-      - 'físicas/resource_type.xml'
-      - '.github/workflows/personas físicas (WADL).yml'
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest 
