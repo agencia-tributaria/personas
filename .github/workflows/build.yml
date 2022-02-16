@@ -5,8 +5,6 @@ jobs:
     steps:
     - id: get-changed
       uses: jitterbit/get-changed-files@v1
-      with:
-        format: 'csv'
     - uses: agencia-tributaria/resource_type@main
       with:
         added: ${{ steps.get-changed.outputs.added }}
