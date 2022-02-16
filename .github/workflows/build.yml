@@ -9,5 +9,5 @@ jobs:
       with:
         added: ${{ steps.get-changed.outputs.added }}
         modified: ${{ steps.get-changed.outputs.modified }}
-        removed: ${{ steps.get-changed.outputs.removed }}
+        removed: ${{ steps.get-changed.outputs }}
         renamed: ${{ steps.get-changed.outputs.renamed }}
