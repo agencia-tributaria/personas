@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: agencia-tributaria/resource_type@main
       with:
-        who-to-greet: 'Santi'
+        path: 'físicas/resource_type.xml'
     - run: |
         pwd
         tree
