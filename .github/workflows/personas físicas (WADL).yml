@@ -11,5 +11,5 @@ jobs:
       with:
         who-to-greet: 'Santi'
     - run: |
-        cwd
+        pwd
         tree
