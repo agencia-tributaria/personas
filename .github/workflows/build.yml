@@ -11,4 +11,4 @@ jobs:
         echo ${{ steps.get-changed.outputs.all }}
     - uses: agencia-tributaria/resource_type@main
       with:
-        changes: test
+        changes: ${{ steps.get-changed.outputs.all }}
