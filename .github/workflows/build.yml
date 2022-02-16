@@ -7,11 +7,6 @@ jobs:
       uses: jitterbit/get-changed-files@v1
       with:
         format: 'csv'
-    - run: |
-        echo Added: ${{ steps.get-changed.outputs.added }}
-        echo Modified: ${{ steps.get-changed.outputs.modified }}
-        echo Removed: ${{ steps.get-changed.outputs.removed }}
-        echo Renamed: ${{ steps.get-changed.outputs.renamed }}
     - uses: agencia-tributaria/resource_type@main
       with:
         added: ${{ steps.get-changed.outputs.added }}
