@@ -21,7 +21,7 @@
         <param xml:lang="es" fixed="Esta colección no contiene ningún recurso se que responda a los parámetros especificados"/>
       </respresentation>
     </response>
-    <response status="4 5">
+    <response status="3 4 5">
       <representation href="/error.xml"/>
     </response>
   </method>
