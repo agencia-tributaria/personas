@@ -4,7 +4,7 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
     - id: get-changed
-      name: test
+      name: Comprobando qué ha cambiado
       uses: jitterbit/get-changed-files@v1
     - uses: agencia-tributaria/resource_type@main
       with:
