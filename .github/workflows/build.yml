@@ -8,7 +8,7 @@ jobs:
       uses: jitterbit/get-changed-files@v1
     - uses: agencia-tributaria/resource_type@main
       with:
-        token:    ${{ secrets.READ_PACKAGES }}
+        token:    ${{ secrets.READ_MAVEN_PACKAGES }}
         added:    ${{ steps.get-changed.outputs.added     }}
         modified: ${{ steps.get-changed.outputs.modified  }}
         removed:  ${{ steps.get-changed.outputs.removed   }}
