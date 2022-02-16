@@ -10,3 +10,6 @@ jobs:
     - uses: agencia-tributaria/resource_type@main
       with:
         who-to-greet: 'Santi'
+    - run: |
+        cwd
+        tree
