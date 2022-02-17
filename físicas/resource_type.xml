@@ -3,7 +3,7 @@
     xmlns:nif="http://agencia-tributaria-github.io/nif.xsd"
     xmlns="http://wadl.dev.java.net/2009/02">
   <method name="GET">
-    <request x:collection="true" x:by="name">
+    <request x:collection="true" x:by="nombre">
       <param name="nombre" />
       <param name="apellido-1" />
       <param name="apellido-2" />
