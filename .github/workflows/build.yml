@@ -11,5 +11,3 @@ jobs:
       with:
         added:    ${{ steps.changes.outputs.added     }}
         modified: ${{ steps.changes.outputs.modified  }}
-        removed:  ${{ steps.changes.outputs.removed   }}
-        renamed:  ${{ steps.changes.outputs.renamed   }}
