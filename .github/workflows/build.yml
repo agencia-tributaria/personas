@@ -3,9 +3,11 @@ jobs:
   build:
     runs-on: ubuntu-latest 
     steps:
+    - run: tree
     - id: get-changed
       name: Localización de cambios
       uses: jitterbit/get-changed-files@v1
+    - run: tree
     - uses: agencia-tributaria/resource_type@main
       with:
         added:    ${{ steps.get-changed.outputs.added     }}
